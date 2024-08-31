@@ -1,0 +1,30 @@
+body {
+    background-image: url(Img/SKZ\ Logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: red;
+}
+.SKZ {
+    color: maroon;
+    margin-left: 610px;
+    font-size: 60px;
+}
+.members-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid maroon;
+}
+.members-title {
+    text-align: center;
+}
+.members-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 10px;
+}
+.all-members {
+    margin: 10px;
+}
